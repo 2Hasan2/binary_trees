@@ -13,4 +13,4 @@ if [ "$#" -ne 1 ]; then
 fi
 
 # # Compile the program excluding files ending with '{number}-main.c'
-gcc -Wall -Wextra -Werror -pedantic $(ls *.c | grep -v "\-main\.c$") "${1}-main.c"  -o "${1}-main"
+gcc -Wall -Wextra -Werror $(ls *.c | grep -v "\-main\.c$") "${1}-main.c"  -o "${1}-main"
