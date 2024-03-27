@@ -1,4 +1,4 @@
-9-binary_tree_height.c#include "binary_trees.h"
+#include "binary_trees.h"
 
 /**
  * binary_tree_inorder - goes through a binary tree using in-order traversal
